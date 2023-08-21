@@ -81,3 +81,19 @@ rev=` expr $temp + $sd `)
 a=` expr $a / 10 `) 
 done) 
 echo "Reverse of $or is $rev") 
+
+
+
+
+USER NAME 
+
+echo "enter user name") 
+read username) 
+echo "enter password") 
+read password) 
+if [ "$username" == "hi" -a "$password" == "hlo"];)
+then) 
+echo "login successful") 
+else) 
+echo "login failed") 
+fi) 
